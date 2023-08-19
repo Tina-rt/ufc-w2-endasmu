@@ -82,18 +82,18 @@ export default {
                         <div class="value">3.4 ETH</div>
                     </div>
                     <div class="avatar-section p-10" @mouseover="expand_animation" @mouseout="compress_avatar">
-                        <Avatar class="avatar" image="/images/1.webp" />
-                        <Avatar class="avatar" image="/images/2.jpeg" />
-                        <Avatar class="avatar" image="/images/3.jpg" />
-                        <Avatar class="avatar" image="/images/4.jpg" />
-                        <Avatar class="avatar" image="/images/1.webp" />
+                        <Avatar class="avatar" image="./images/1.webp" />
+                        <Avatar class="avatar" image="./images/2.jpeg" />
+                        <Avatar class="avatar" image="./images/3.jpg" />
+                        <Avatar class="avatar" image="./images/4.jpg" />
+                        <Avatar class="avatar" image="./images/1.webp" />
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="img-woman">
-            <img src="@/assets/woman afro 2.png" alt="">
+            <img src="./assets/woman afro 2.png" alt="">
         </div>
     </div>
 </template>

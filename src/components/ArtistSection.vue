@@ -10,12 +10,12 @@ export default{
             list_artist: [
                 {
                     name: 'Johnny Five',
-                    image_pdp: '/images/2.jpeg',
-                    image_art: '/images/art1.png'
+                    image_pdp: './images/2.jpeg',
+                    image_art: './images/art1.png'
                 },{
                     name: 'Lucinta Luna',
-                    image_pdp: '/images/1.webp',
-                    image_art: '/images/art2.png'
+                    image_pdp: './images/1.webp',
+                    image_art: './images/art2.png'
                 }
             ]
         }

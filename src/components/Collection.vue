@@ -12,10 +12,10 @@ export default {
     <div class="main-collection align-center ">
         <div class="row wrap-invert">
             <div class="collection-list">
-                <CollectionItem img="/images/black men.png" />
-                <CollectionItem img="/images/woman pony tails.png" />
-                <CollectionItem img="/images/black woman turban.png" />
-                <CollectionItem img="/images/white woman.png" />
+                <CollectionItem img="./images/black men.png" />
+                <CollectionItem img="./images/woman pony tails.png" />
+                <CollectionItem img="./images/black woman turban.png" />
+                <CollectionItem img="./images/white woman.png" />
             </div>
             <div class="aside-collection">
                 <div class="title-section">
