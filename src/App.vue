@@ -21,7 +21,7 @@ export default {
   },
   data() {
     return {
-      list_bg: ['./images/circle 1.png', './images/circle 2.png'],
+      list_bg: ['./images/circle 11.png', './images/circle 22.png'],
       cursorX: 0,
       cursorY: 0
     }

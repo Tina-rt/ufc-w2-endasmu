@@ -11,11 +11,11 @@ export default{
                 {
                     name: 'Johnny Five',
                     image_pdp: './images/2.jpeg',
-                    image_art: './images/art1.png'
+                    image_art: './images/art1.jpg'
                 },{
                     name: 'Lucinta Luna',
                     image_pdp: './images/1.webp',
-                    image_art: './images/art2.png'
+                    image_art: './images/art2.jpg'
                 }
             ]
         }
