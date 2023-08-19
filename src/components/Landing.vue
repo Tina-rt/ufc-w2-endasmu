@@ -1,10 +1,11 @@
 <script>
 import Avatar from './Avatar.vue';
 import { Cursor } from '../animation/cursor_handling';
-
+import Image from './Image.vue';
 export default {
     components: {
-        Avatar
+        Avatar,
+        Image
     },
     data() {
         const cursor = new Cursor()
@@ -93,7 +94,7 @@ export default {
         </div>
 
         <div class="img-woman">
-            <img src="@/assets/woman afro 2.png" alt="">
+            <Image image_url="./images/woman afro 2.png" />
         </div>
     </div>
 </template>
