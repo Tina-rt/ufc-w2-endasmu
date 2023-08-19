@@ -1,0 +1,86 @@
+@import './base.css';
+
+#app{
+}
+.title-section {
+    font-size: 1em;
+    color: var(--color-secondary);
+}
+.big-title-section {
+    font-size: 4.6em;
+    font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.article-section {
+    font-size: 1.2em;
+    color: var(--color-text-secondary);
+}
+.btn-primary{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn-secondary{
+    background-color: var(--color-secondary);
+    color: black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn-thirdly{
+    padding: 10px 40px;
+}
+
+.justify-space-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.wrap-invert{
+    flex-wrap: wrap-reverse;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.p-10{
+    padding: 10px;
+}
+.p-70{
+    padding-inline: 70px;
+}
+
+.box-shadow{
+    box-shadow: 1px 1px 59px -7px rgba(0, 0, 0, 0.64);
+    -webkit-box-shadow: 1px 1px 59px -7px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 1px 1px 59px -7px rgba(0, 0, 0, 0.64);
+}
+
+@media (max-width: 500px) {
+    .big-title-section{
+        font-size: 4em;
+    }
+}
