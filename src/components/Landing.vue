@@ -93,7 +93,7 @@ export default {
         </div>
 
         <div class="img-woman">
-            <img src="./images/woman afro 2.png" alt="">
+            <img src="../assets/woman afro 2.png" alt="">
         </div>
     </div>
 </template>
