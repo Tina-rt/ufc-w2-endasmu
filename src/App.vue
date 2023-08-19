@@ -21,7 +21,7 @@ export default {
   },
   data() {
     return {
-      list_bg: ['/images/circle 1.png', '/images/circle 2.png'],
+      list_bg: ['./images/circle 1.png', './images/circle 2.png'],
       cursorX: 0,
       cursorY: 0
     }
@@ -228,6 +228,7 @@ main {
 @media (max-width: 500px) {
   .screen{
     height: 100vh;
+
   }
 }
 </style>
