@@ -19,7 +19,6 @@ export default {
             for (let i = 0; i < all_avatar.length; i++) {
                 const avatar = all_avatar[i];
                 avatar.style.transform = `translateX(0px)`;
-                avatar.style['margin-inline'] = `5px`;
 
             }
             this.cursor.hover()

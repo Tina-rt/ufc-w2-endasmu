@@ -49,6 +49,7 @@ export default{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .aside-artist-section{
     z-index: 12;
@@ -58,7 +59,6 @@ export default{
     display: flex;
     flex-direction: row;
     justify-content: end;
-    width: 90%;
     flex-wrap: wrap;
 }
 

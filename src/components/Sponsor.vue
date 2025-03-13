@@ -25,7 +25,10 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 6rem;
+    flex-wrap: wrap;
+    align-items: center;
     width: 100%;
 }
 .img-sponsor{

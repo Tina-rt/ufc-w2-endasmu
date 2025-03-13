@@ -34,8 +34,8 @@ export default {
 
 <style scoped>
 .collectionitem {
-    width: 270px;
-    height: 200px;
+    /* width: 270px; */
+    aspect-ratio: 270/200;
 
     display: flex;
     flex-direction: row;

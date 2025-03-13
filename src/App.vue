@@ -113,7 +113,7 @@ export default {
   <main>
     <div id="img-section">
     </div>
-    <div class="p-70 main">
+    <div class=" main">
       <Navbar />
       <div class="screen">
         <Landing />
@@ -215,7 +215,9 @@ main {
   height: 600px;
   display: flex;
   flex-direction: row;
+  gap: 50px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .screen-footer {

@@ -46,7 +46,7 @@ export default{
 
 
 .main-artist-card{
-    width: 300px;
+    width: 20vw;
     height: 350px;
     position: relative;
     display: flex;
@@ -60,14 +60,15 @@ export default{
 }
 .avatar-profile{
     
-    width: 300px;
+    width: 100%;
+    
     border-radius: 30px;
     height: 90%;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-y: hidden;
+    overflow: hidden;
     position: absolute;
     bottom: 0;
     z-index: 12;
